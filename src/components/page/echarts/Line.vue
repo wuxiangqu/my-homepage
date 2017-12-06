@@ -10,7 +10,7 @@ export default {
     };
   },
   mounted() {
-    this.lineChart = this.$echarts.init(document.getElementById("lineChart"));
+    this.lineChart = echarts.init(document.getElementById("lineChart"));
     let option = {
       title: {
         x: "center",

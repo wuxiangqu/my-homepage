@@ -47,38 +47,31 @@ export default {
   props: {
     particleRadius: {
       type: Number,
-      default: 2,
-      required: true
+      default: 2
     },
     particleSpeed: {
       type: Number,
-      default: 0.5,
-      required: true
+      default: 0.5
     },
     particleColor: {
       type: String,
-      default: "#ffffff",
-      required: true
+      default: "#ffffff"
     },
     particleNumber: {
       type: Number,
-      default: 100,
-      required: true
+      default: 100
     },
     particleDistance: {
       type: Number,
-      default: 100,
-      required: true
+      default: 100
     },
     lineColor: {
       type: String,
-      default: "#ffffff",
-      required: true
+      default: "#ffffff"
     },
     lineWidth: {
       type: Number,
-      default: 1,
-      required: true
+      default: 1
     }
   },
   data() {

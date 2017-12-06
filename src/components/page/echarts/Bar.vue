@@ -10,7 +10,7 @@ export default {
     };
   },
   mounted() {
-    this.barChart = this.$echarts.init(document.getElementById("barChart"));
+    this.barChart = echarts.init(document.getElementById("barChart"));
     let option = {
       title: {
         x: "center",

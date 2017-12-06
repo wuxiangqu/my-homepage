@@ -10,7 +10,7 @@ export default {
     };
   },
   mounted() {
-    this.pieChart = this.$echarts.init(document.getElementById("pieChart"));
+    this.pieChart = echarts.init(document.getElementById("pieChart"));
     let option = {
       title: {
         x: "center",
