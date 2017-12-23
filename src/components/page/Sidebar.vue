@@ -35,6 +35,10 @@ export default {
           icon: "el-icon-location",
           subs: [
             {
+              index: "board",
+              title: "Board"
+            },
+            {
               index: "particles",
               title: "Particles"
             },

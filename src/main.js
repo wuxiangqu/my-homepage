@@ -14,6 +14,7 @@ import {
   Button,
   Slider,
   ColorPicker,
+  Checkbox,
   Message
 } from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
@@ -30,7 +31,7 @@ Vue.use(TableColumn)
 Vue.use(Button)
 Vue.use(Slider)
 Vue.use(ColorPicker)
-//Vue.use(Message)
+Vue.use(Checkbox)
 Vue.component(Message.name, Message)
 
 Vue.prototype.$axios = axios

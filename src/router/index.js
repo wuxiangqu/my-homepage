@@ -19,6 +19,10 @@ export default new Router({
       component: resolve => require(['@/components/page/Home'], resolve),
       children: [
         {
+          path: '/board',
+          component: resolve => require(['@/components/page/canvas/Board'], resolve)
+        },
+        {
           path: '/particles',
           component: resolve => require(['@/components/page/canvas/Particles'], resolve)
         },
