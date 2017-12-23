@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import { Board } from "../../../static/js/board.js";
+import { Board } from "../../assets/js/board.js";
 export default {
   props: {
     lineWidth: {
