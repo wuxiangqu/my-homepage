@@ -7,7 +7,7 @@
           <el-input v-model="userForm.username" placeholder="用户名"></el-input>
         </el-form-item>
         <el-form-item prop="password">
-          <el-input type="password" v-model="userForm.password" placeholder="密码"></el-input>
+          <el-input type="password" v-model="userForm.password" @keyup.enter.native="submitForm('userForm')" placeholder="密码"></el-input>
         </el-form-item>
         <el-form-item class="submit-row">
           <el-button type="primary" class="submit-btn"  @click="submitForm('userForm')">登录</el-button>
